@@ -1,0 +1,100 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: whitesmoke;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+
+}
+.menu-item p{
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+}
+.menu-item img{
+    width: 100%;
+}
+.Area-coffe a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    border: 1px solid whitesmoke;
+    padding: 4px 30px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.Area-coffe {
+    margin-top: 20px;
+}
+.Area-coffe a:hover{
+    background-color: black;
+    color: white;
+}
+.back-main{
+    background-image: url(/hot-steam-rising-from-coffee-mug-generated-by-ai.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.a{
+    border: 1px solid black;
+    color: red;
+}

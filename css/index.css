@@ -55,13 +55,13 @@ nav a {
     width: 20%;
     margin: 20px;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: transparent;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
 
 }
 .menu-item p{
-    color: black;
+    color: white;
+    
 }
 
 footer {
@@ -90,7 +90,7 @@ footer {
     color: white;
 }
 .back-main{
-    background-image: url(/hot-steam-rising-from-coffee-mug-generated-by-ai.jpg);
+    background-image: url(../images/pexels-feyza-daştan-9080888.jpg);
     height: 800px;
     background-size: cover;
 }
